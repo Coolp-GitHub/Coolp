@@ -2,6 +2,6 @@
 
 document.getElementById('box').addEventListener('click', function()
 {
-    document.documentElement.scrollTo(0,10)
+    location.href = "coolp.codes/About"
 
 });
