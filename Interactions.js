@@ -2,6 +2,6 @@
 
 document.getElementById('box').addEventListener('click', function()
 {
-    alert("CLICK");
+    document.documentElement.scrollTo(0,10)
 
 });
