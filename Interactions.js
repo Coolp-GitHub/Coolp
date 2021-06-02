@@ -7,6 +7,6 @@ document.getElementById('About').addEventListener('click', function()
 });
 document.getElementById('Home').addEventListener('click', function()
 {
-    location.href = "Index.html"
+    location.href = "index.html"
 
 });
