@@ -5,8 +5,9 @@ document.getElementById('About').addEventListener('click', function()
     location.href = "About.html"
 
 });
-document.getElementById('Home').addEventListener('click', function()
+if(document.getElementById('Home') != null){document.getElementById('Home').addEventListener('click', function()
 {
     alert("aujana")
 
 });
+}
