@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+
+
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+body{
+   background-color: #E7E5DF;
+   font-family: Catamaran;
+   position: absolute;
+   top:-10px;
+   left: -10px;
+
+   height: 3000px;
+
+}
+.special{
+   text-decoration:underline;
+   text-decoration-color: #9395D3;
+}
+h1 {
+   position: absolute;
+   top: 20px;
+}
+
+p{
+   font-size: 4rem;
+
+}
+#AboutBut{
+   position: absolute;
+   left: 180px;
+}
+
+#HomeBut{
+   position: absolute;
+   left: 180px;
+}
+p{
+   position: absolute;
+   top: 150px;
+}
+#logo {
+   width: 7rem;
+   height: 7rem;
+   position: absolute;
+   left: 20px;
+   z-index: 2;
+   top: 10px;
+}
+#LinkBar{
+   width: 100vw;
+   height: 130px;
+   background-color: #b8b4b4;
+   position: sticky;
+}
+
+.myLinks{
+   position: absolute;
+   bottom: 200px;
+}
+
+
