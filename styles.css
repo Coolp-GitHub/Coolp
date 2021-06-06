@@ -2,9 +2,10 @@
 
 
 
+
 a{
    text-decoration: none;
-   color: black;
+   color: #393E41;
 }
 
 body{
@@ -18,8 +19,8 @@ body{
 
 }
 .special{
-   text-decoration:underline;
-   text-decoration-color: #9395D3;
+  color: #9395D3;
+
 }
 h1 {
    position: absolute;
@@ -28,39 +29,59 @@ h1 {
 
 p{
    font-size: 4rem;
-
+   color: #393E41;
+   position: absolute;
+   top: 150px;
+   left: 50px;
 }
 #AboutBut{
    position: absolute;
-   left: 180px;
+   left: 360px;
 }
 
 #HomeBut{
    position: absolute;
-   left: 180px;
+   left: 200px;
 }
-p{
-   position: absolute;
-   top: 150px;
+.buttons {
+   color: #E7E5DF;
 }
+
+
 #logo {
-   width: 7rem;
-   height: 7rem;
+   width: 6rem;
+   height: 6rem;
    position: absolute;
    left: 20px;
    z-index: 2;
-   top: 10px;
+   top: 20px;
 }
+
 #LinkBar{
-   width: 100vw;
+   width: 99vw;
    height: 130px;
-   background-color: #b8b4b4;
+   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(56,63,81,1)  7%, rgba(56,63,81,1) 100%);
    position: sticky;
 }
 
 .myLinks{
    position: absolute;
    bottom: 200px;
+
+}
+
+
+#github {
+   left: 250px;
+   height: 155px;
+   width: 155px;
+
+}
+
+
+#itch {
+   position: absolute;
+   left: 50px;
 }
 
 
