@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
 
-:root{
-   --screen-x: 0
-}
-:root{
-   --screen-y: 0;
-}
-
 
 a{
    text-decoration: none;
@@ -65,7 +58,7 @@ p{
 #LinkBar{
    width: 100vw;
    height: 130px;
-   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(56,63,81,1)  7vw, rgba(56,63,81,1) 100%);
+   background: #383F51;
    position: sticky;
 }
 
