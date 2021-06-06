@@ -15,7 +15,7 @@ body{
    top:-10px;
    left: -10px;
 
-   height: 2000px;
+   height: 100rem;
 
 }
 .special{
@@ -58,15 +58,15 @@ p{
 }
 
 #LinkBar{
-   width: 99vw;
+   width: 100vw;
    height: 130px;
-   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(56,63,81,1)  7%, rgba(56,63,81,1) 100%);
+   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(56,63,81,1)  10rem, rgba(56,63,81,1) 100%);
    position: sticky;
 }
 
 .myLinks{
    position: absolute;
-   bottom: 200px;
+   bottom: 20px;
 }
 
 
