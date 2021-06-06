@@ -60,7 +60,7 @@ p{
 #LinkBar{
    width: 100vw;
    height: 130px;
-   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(56,63,81,1)  10rem, rgba(56,63,81,1) 100%);
+   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(56,63,81,1)  7vw, rgba(56,63,81,1) 100%);
    position: sticky;
 }
 
