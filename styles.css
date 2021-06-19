@@ -18,7 +18,11 @@ body{
 }
 .special{
   color: #9395D3;
-
+   text-decoration: underline;
+   text-decoration-color: #9395D3;
+   animation-name: fadeIn;
+   animation-duration: 0.5s;
+   animation-fill-mode: forwards;
 }
 h1 {
    position: absolute;
@@ -68,17 +72,23 @@ p{
 }
 
 
-#github {
-   left: 250px;
-   height: 155px;
-   width: 155px;
+#github {left: 250px;}  #itch {left: 50px;}  #email{left: 450px;} #youtube{left:650px;}
 
+.myLinks:hover {
+   animation-fill-mode: forwards;
+   animation-name: enlarge;
+   animation-duration: 0.25s;
 }
 
-
-#itch {
-   position: absolute;
-   left: 50px;
+@keyframes enlarge {
+   0% {height: auto; width: 165px}
+   50% {height: auto; width: 155px}
+   100% {height: auto; width: 150px}
 }
 
-
+@keyframes fadeIn {
+   0%{opacity: 0.25}
+   25%{opacity: 0.5;}
+   75%{opacity: 0.75;}
+   100%{opacity: 1;}
+}
